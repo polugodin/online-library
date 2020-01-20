@@ -1,0 +1,65 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: inherit;
+  margin: 0;
+
+  font-family: 'Segoe UI', sans-serif;
+  color: #222222;
+  letter-spacing: -0.02em;
+}
+
+#root {
+  height: inherit;
+}
+
+/* app */
+.app {
+  display: flex;
+  justify-content: center;
+  height: inherit;
+  padding: 20px;
+
+  box-sizing: border-box;
+}
+
+.app__content {
+  width: 800px;
+  max-width: 100%;
+}
+
+.app__title {
+  padding-bottom: 0.67em;
+
+  border-bottom: 1px solid #f7f7f7;
+}
+
+/* book link */
+.book-link {
+  display: block;
+
+  color: #222222;
+  text-decoration: underline;
+}
+
+/* book */
+.books-link {
+  font-size: 1.5rem;
+  color: #3579ce;
+  text-decoration: underline;
+}
+
+.book__read-link {
+  font-size: 1.5rem;
+  color: #3579ce;
+  text-decoration: underline;
+}
+
+/* misc */
+.loading {
+  margin-top: 1rem;
+
+  font-style: italic;
+}
